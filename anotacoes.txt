@@ -1,0 +1,36 @@
+comandos dentro do terminal:
+pwd   -> mostra o caminho
+clear  -> "limpa" o terminal
+touch  -> cria um arquivo (exemplo touch index.html)
+rm -rf   -> apaga o arquivo
+ls -la   -> mostra todas as informações dos arquivos da pasta, inclusive os arquivos ocultos
+cd   -> somente o cd, volta pra pasta raiz
+code .   -> abre o vscode
+mv    -> alterar o nome do arquivo/pasta
+    mv pasta1 pasta2     -> vai alterar o nome pasta1 para pasta2
+
+css
+* {
+
+}
+-> o asterisco quer dizer que tudo na página terá as configurações dentro de {}
+
+tudo o que for definido no id tem mais importância do que for definido na classe
+
+git diff   -> mostra o que foi modificado no arquivo
+git config user.name "    escrever nome   "    -> comando após o git add .
+git config user.email  "   escrever email  "
+git config --list    -> mostra os users adicionados
+git log   -> mostra os logs/commits
+shift+insert   -> é o ctrl+v no terminal
+git reset  -> cancela um commit, mas as alterações continuam
+git checkout -> retira as modificações dos arquivos
+
+
+nav a:nth-child(1) {
+    font-size: 18pt;
+}
+
+nav a:nth-child(odd) {
+
+}    -> odd mostra os ímpares
